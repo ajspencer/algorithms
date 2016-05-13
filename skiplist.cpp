@@ -24,9 +24,9 @@ class SkipList {
         void add(int key);
         void remove(int key);
         int search(int key);
-        Node *head, *tail;
     private:
         std::vector<Node *> getPath(int key, int height);
+        Node *head, *tail;
 };
 
 /**
